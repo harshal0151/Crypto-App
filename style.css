@@ -354,9 +354,12 @@ header .btn {
   #hero {
     background-image: none;
     text-align: center;
+    margin-top: 3rem;
   }
   #hero h1{
       font-size: 3rem;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
       
   }
 
@@ -368,7 +371,7 @@ header .btn {
 
   #top-coins{
     padding:  0;
-    margin: 2rem 0;
+    margin: 5rem 0;
   }
 
   .coins{
