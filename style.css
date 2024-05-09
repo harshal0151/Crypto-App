@@ -254,9 +254,32 @@ form button:hover {
   #hero{
   padding: 0rem ;
   }
+
+  form{
+    width: 80% ; 
+  }
+  .single-crypto-details .right {
+     width: 70%;
+   }
+   .single-crypto-history{
+    margin-left: 10rem;
+   }
 }
 
 @media screen and (max-width: 800px) {
+  form{
+    width: 100% ;
+  }
+
+  form input{
+    width: 70%;
+  
+  }
+
+.result .right .btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
   #hero h1{
       font-size: 3rem;
       
@@ -265,10 +288,56 @@ form button:hover {
   #hero p {
     font-size: 0.8rem
   }
+
+  .single-crypto-details{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .right{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .right p {
+    font-size: 0.8rem;
+  }
+  .single-crypto-history {
+    width: 80%;
+    margin-left: 5rem;
+  }
+  
 }
 
 
 @media screen and (max-width: 400px) {
+
+  form{
+    width: 100% ;
+  }
+
+  form input{
+    width: 70%;
+    
+  }
+  form button {
+    width: 20%;
+  }
+
+  .result{
+    font-size: .5rem;
+  }
+  .result .left{
+   width: 70%;
+  }
+  .result .right {
+    width: 20%;
+  }
+  .result .right .btn {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
   
 header {
   padding: 1rem ;
@@ -324,5 +393,26 @@ footer{
   width: 100%;
   margin-bottom: 2rem;
   margin-top: 1rem;
+}
+
+
+main{
+  padding: 0;
+  margin: 0;
+}
+
+.left img{
+  width: 110%;
+  margin-bottom: 2rem;
+}
+.right p {
+  font-size: 0.5rem;
+}
+.right h3{
+  font-size: 1rem;
+}
+.single-crypto-history {
+  width: 100%;
+  margin-left: 0rem;
 }
 }
